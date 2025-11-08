@@ -1,0 +1,29 @@
+.cart-quantity-container {
+  display: flex;
+  align-items: center;
+}
+.food-quantity {
+  margin-left: 8px;
+  margin-right: 8px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #475569;
+}
+.quantity-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  background-color: #f6f7f8;
+  padding: 15px;
+  border: 0;
+  color: #33a0ff;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  font-size: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}

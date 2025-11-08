@@ -1,0 +1,70 @@
+.popular-restaurants-container {
+  display: flex;
+  flex-direction: column;
+}
+.popular-restaurants {
+  padding: 30px;
+}
+.sort-controller {
+  display: flex;
+  align-items: center;
+}
+.sort-by {
+  border: 0px;
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  .sort-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.restaurants-items-container {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.page-controller {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-controller-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 8px 0px 8px;
+  padding: 10px;
+  border: 0;
+
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  font-size: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.popular-restaurants-title {
+  font-size: 20px;
+}
+.popular-restaurants-text {
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .popular-restaurants-title {
+    font-size: 25px;
+  }
+  .popular-restaurants-text {
+    font-size: 16px;
+  }
+}
+.restaurants-loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+}
